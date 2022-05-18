@@ -7,5 +7,3 @@ export const Content = () => {
         </main>
     )
 }
-
-export default Content

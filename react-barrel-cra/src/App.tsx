@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Content, Footer, Header } from "./components";
+import { Article, Content, Footer, Header, Section } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Article />
+      <Section />
       <Content />
       <Footer />
     </div>
